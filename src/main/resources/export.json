@@ -1,0 +1,3 @@
+{ "_id" : { "$oid" : "5a91b4c4e2860af64f7f2509" }, "application_id" : "APP_15", "application_name" : "Application 15", "url" : "http://localhost:3002", "granted_users" : [ "H77399", "H77777", "Y11111" ] }
+{ "_id" : { "$oid" : "5a91b4d0e2860af64f7f250a" }, "application_id" : "APP_10", "application_name" : "Application 10", "url" : "http://google.fr", "granted_users" : [ "H77399" ] }
+{ "_id" : { "$oid" : "5a91b4d8e2860af64f7f250b" }, "application_id" : "APP_20", "application_name" : "Application 20", "url" : "http://macif.fr", "granted_users" : [ "H77399", "H77777", "Y11111" ] }
