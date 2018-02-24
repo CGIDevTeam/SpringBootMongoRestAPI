@@ -27,6 +27,6 @@ exported 3 records
 
  1. After import the project in your favorite IDE (build the project with **Gradle**)
  2. To launch the project run the **Application** class
- 3.
+
 > The application is reachable at http://localhost:8080/
 > The principal enpoint for the poc is for example http://localhost:8080/application/informations?application_id=APP_10
