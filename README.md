@@ -30,3 +30,5 @@ exported 3 records
 
 > The application is reachable at http://localhost:8080/
 > The principal enpoint for the poc is for example http://localhost:8080/application/informations?application_id=APP_10
+
+
