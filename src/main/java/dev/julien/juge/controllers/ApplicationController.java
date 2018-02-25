@@ -23,6 +23,17 @@ public class ApplicationController {
     @Autowired
     ApplicationRepository applicationRepository;
 
+
+    /**
+     * @api {get} /application/informations?application_id:application_id Récupérer informations application
+     * @apiGroup Application
+     * @apiName informations
+     * @apiVersion 1.0.0
+     * @apiDescription Permet de récupérer les informations d'un application
+     * @apiParam {String} application_id Identifiant de l'application à rechercher
+     * @apiSuccessExample {json} Success-Response:
+     * HTTP/1.1 200 OK
+     */
     @RequestMapping(
             method = RequestMethod.GET,
             path = "informations"

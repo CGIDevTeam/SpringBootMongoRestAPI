@@ -16,6 +16,16 @@ public class ContextController {
         return "coucou";
     }
 
+    /**
+     * @api {get} /context/informations?application_id:application_id Récupérer informations contexte
+     * @apiGroup Contexte
+     * @apiName informations
+     * @apiVersion 1.0.0
+     * @apiDescription Permet de récupérer le contexte utilisé par une application
+     * @apiParam {String} application_id Identifiant de l'application à rechercher
+     * @apiSuccessExample {json} Success-Response:
+     * HTTP/1.1 200 OK
+     */
     @RequestMapping(
             method = RequestMethod.GET,
             consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,

@@ -1,0 +1,15 @@
+{
+  "name": "SpringBootMongoRestAPI",
+  "version": "1.0.0",
+  "description": "API Doc for SpringBootMongoRestAPI",
+  "title": "SpringBootMongoRestAPI Doc",
+  "url": "https://github.com/CGIDevTeam/SpringBootMongoRestAPI",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "api-doc": "apidoc -i src/main/java/dev/julien/juge -o src/main/resources/public/api-doc",
+    "deploy-doc": "node api-doc-server.js"
+  }
+}

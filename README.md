@@ -31,4 +31,14 @@ exported 3 records
 > The application is reachable at http://localhost:8080/
 > The principal enpoint for the poc is for example http://localhost:8080/application/informations?application_id=APP_10
 
+# Generate and Deploy API Doc
 
+ 1. At the project root directory run **npm i**
+ 2. Next just run **npm run api-doc**, it will generate files into *src/main/resources/public.api-doc*
+ 3. To deploy the API Documentation just run **npm run deploy-doc**, this launch a nodejs server on port 9002
+
+> The documentation is reachable at http://localhost:9002/
+
+# Swagger
+
+> Coming soon

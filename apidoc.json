@@ -1,0 +1,11 @@
+{
+  "name": "SpringBootMongoRestAPI",
+  "version": "1.0.0",
+  "description": "API Doc for SpringBootMongoRestAPI",
+  "title": "SpringBootMongoRestAPI Doc",
+  "url": "https://github.com/CGIDevTeam/SpringBootMongoRestAPI",
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}
