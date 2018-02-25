@@ -41,4 +41,4 @@ exported 3 records
 
 # Swagger
 
-> Coming soon
+> After launch SpringBootApplication, just access by this link : http://localhost:8080/swagger-ui.html#/
